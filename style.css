@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edeaff;
+    display: flex;
+}
+.container{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(./Images/background.png);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    box-shadow: rgba(0,0,0, 0.8) 13px 11px 10px;
+}
+.container>h1{
+    font-size: 70px;
+    font-family: 'Acme', sans-serif;
+}
+
+.buttons img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 0px 25px;
+    margin-top: 100px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start-btn{
+    height: 80px;
+    width: 80px;
+}
+.lap-container{
+    height: 90vh;
+    width: 360px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(./Images/background.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0,0,0, 0.8) 13px 11px 10px;
+    margin: 40px auto 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 40px 50px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+#lap-time{
+    font-size: 40px;
+}
+.lap-container>h1{
+    font-size: 50px;
+}
+
+@media (max-width:1050px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
